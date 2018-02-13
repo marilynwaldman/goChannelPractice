@@ -11,7 +11,10 @@ func main() {
 	fmt.Println("Starting")
 	//ChannelSync.ChanSync()
 	//ChannelSync.PingPong()
-	ChannelSync.SelectChan()
+	//ChannelSync.SelectChan()
+	//ChannelSync.TimeOut()
+	//ChannelSync.ClosingChannels()
+	ChannelSync.RangeOverChannel()
 
 
 
