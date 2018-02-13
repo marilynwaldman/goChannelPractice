@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0115569-b166-4b4c-a6c8-67879185ccf0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChannelSync/closingchannels.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChannelSync/rangeoverchannels.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChannelSync/timeout.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChannelSync/methods.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
     </list>
@@ -22,8 +19,8 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="e#14#55#0" expanded="true" />
               </folding>
@@ -55,13 +52,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rangeoverchannels.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ChannelSync/rangeoverchannels.go">
+      <file leaf-file-name="methods.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ChannelSync/methods.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="258">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
-                <element signature="e#21#33#0" expanded="true" />
+                <element signature="e#21#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +92,9 @@
         <option value="$PROJECT_DIR$/ChannelSync/select.go" />
         <option value="$PROJECT_DIR$/ChannelSync/timeout.go" />
         <option value="$PROJECT_DIR$/ChannelSync/closingchannels.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/ChannelSync/rangeoverchannels.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/ChannelSync/methods.go" />
       </list>
     </option>
   </component>
@@ -285,12 +283,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518462438334</updated>
-      <workItem from="1518462439848" duration="11104000" />
+      <workItem from="1518462439848" duration="13237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11104000" />
+    <option name="totallyTimeSpent" value="13237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="733" extended-state="6" />
@@ -378,7 +376,7 @@
         <state relative-caret-position="330">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="e#21#46#0" expanded="true" />
+            <element signature="e#21#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -388,7 +386,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
-            <element signature="e#21#46#0" expanded="true" />
+            <element signature="e#21#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -413,12 +411,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/ChannelSync/rangeoverchannels.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#14#55#0" expanded="true" />
+            <element signature="e#21#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -433,12 +431,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChannelSync/rangeoverchannels.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
-            <element signature="e#21#33#0" expanded="true" />
+            <element signature="e#14#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChannelSync/methods.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#21#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

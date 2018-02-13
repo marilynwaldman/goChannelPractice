@@ -14,7 +14,8 @@ func main() {
 	//ChannelSync.SelectChan()
 	//ChannelSync.TimeOut()
 	//ChannelSync.ClosingChannels()
-	ChannelSync.RangeOverChannel()
+	//ChannelSync.RangeOverChannel()
+	ChannelSync.Method()
 
 
 
