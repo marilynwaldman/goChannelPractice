@@ -15,8 +15,18 @@ func main() {
 	//ChannelSync.TimeOut()
 	//ChannelSync.ClosingChannels()
 	//ChannelSync.RangeOverChannel()
-	ChannelSync.Method()
-
+	//ChannelSync.Method()
+	//ChannelSync.Interface()
+	//ChannelSync.WorkerPool()
+	//ChannelSync.RateLimit2()
+	//ChannelSync.RateLimit()
+	//ChannelSync.Map()
+	//ChannelSync.Greeting()
+	//ChannelSync.Bursty()
+	//ChannelSync.Pinger()
+	//ChannelSync.Sync()
+	//ChannelSync.MyClosure()
+	ChannelSync.MyMethod()
 
 
 
