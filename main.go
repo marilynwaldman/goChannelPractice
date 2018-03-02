@@ -26,8 +26,10 @@ func main() {
 	//ChannelSync.Pinger()
 	//ChannelSync.Sync()
 	//ChannelSync.MyClosure()
-	ChannelSync.MyMethod()
-
+	//ChannelSync.MyMethod()
+	//ChannelSync.Interface2()
+	//ChannelSync.PingPong2()
+	ChannelSync.Fib()
 
 
 }
